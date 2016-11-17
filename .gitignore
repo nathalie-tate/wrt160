@@ -1,0 +1,5 @@
+*.*
+!*.latex
+!*.bib
+!LICENSE.txt
+!.gitignore
