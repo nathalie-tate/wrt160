@@ -1,0 +1,116 @@
+\documentclass[man]{apa6}
+\usepackage[american]{babel}
+\usepackage[style=apa]{biblatex}
+\usepackage{csquotes}
+\DeclareLanguageMapping{american}{american-apa}
+\bibliography{cites}
+\title{Open Source Software and Innovation in the Software Development 
+	Industry -- Draft}
+\shorttitle{Open source software and innovation}
+\author{Nathalie Rosalind Tate}
+\affiliation{Oakland University}
+\abstract{abstract text}
+
+\begin{document}
+\maketitle{}
+
+<!--TODO add page numbers to all direct quotes-->
+
+		Open source software is software where the source code is freely available.
+		Although the exact restrictions vary between open source licenses, most
+		allow for users to edit and redistribute the software. One question raised
+		by the rise of open source software (OSS) is how it compares to proprietary
+		software with regard to innovation in the software industry, where
+		``innovation'' is defined as a holistic metric that considers the amount of 
+		new software and code commits, bug reports, and bug fixes to existing
+		software, as well as the perceived quality and usability of said software.
+
+		The main divide between proprietary software and OSS, other than the
+		availability of the source code, is the price: Proprietary software
+		frequently must be purchased, while OSS is usually provided for free. This
+		price difference makes it easier to monetize proprietary software and is a
+		large factor in the popularity of proprietary software.
+		
+		\section{Literature Review}
+		
+		\textcite{7} compares how price competition and
+		differences in software quality vary between two markets: one in which two
+		proprietary software firms are competing and one in which a proprietary
+		software firm competes against an open source software (OSS) firm. The
+		authors utilized a statistical model	to compare the two types of markets.
+		The models compare software quality and price competition. Although OSS is
+		often free, the authors factored in an ``effort cost'' when determining the
+		price competition. The findings of the model were that a proprietary firm
+		competing against an OSS firm may have either higher or lower profits than a
+		proprietary firm competing against another proprietary firm, depending on
+		the price competition from the OSS firm. The price competition depends on
+		the effort cost of the OSS, the degree to which consumers value quality, and
+		the degree to which the consumers of the OSS contribute to the production of
+		the OSS. The proprietary firm had the highest profits when the price
+		competition from the OSS firm was low, but the consumers were better-off
+		with lower price competition. The authors also found that OSS had low value
+		for users who valued quality in their software, but that it may have high
+		value for users who did not value quality \parencite{7}.
+		
+		\textcite{10} discusses the visibility of software used
+		and mentioned in biology literature. The authors compiled a ``balanced and
+		representative sample'' of biology literature and analyzed the content by
+		looking for mentions of	software. Once found, the mentions were ``coded''
+		according to a coding scheme defined by the authors. The coding scheme
+		contained information about	the mentioned software: if the mention was
+		cited, if the mentioned software was easily identifiable and findable, if
+		the source code was	available, and if the author of the software granted
+		permission for others to edit it. The authors found that they had access to
+		79\% of the mentioned	software, 47\% was available for free, 32\% allowed
+		access to the source code, and 20\% allowed users to modify the code. The
+		authors concluded that the manner in which software was mentioned and cited
+		in scientific literature are ``varied and appear relatively ad hoc.'' The
+		authors end with a call for more research \parencite{10}.
+
+		\textcite{12} utilizes a statistical model to examine
+		competition between a firm that produces proprietary software and a
+		community that produces OSS. The author's findings are that the firm will
+		cater to the less technologically savvy and the community will cater to
+		those who are more technologically capable. In the presence of competition
+		from the community, the firm targets ``even less technologically savvy
+		individuals''. Furthermore, the author notes that the ``real price'' of
+		software has two factors: the purchase price and the opportunity cost of
+		learning how to use it. Additionally, the author comments on how proprietary
+		firms can benefit from ``R\&D spillover'' from permissively licensed OSS
+		projects \parencite{12}.
+
+		\textcite{1} discusses the ``business of open source
+		software''.  The authors discuss possible business models that allow an
+		individual or corporation to profit from OSS. These business models include:
+		``Support contracts and services", where one only supplies support for the
+		software; ``Open core'', where the core software is OSS but the peripheral
+		software and extensions are closed source; ``Business source'', where the
+		software is maintained under two licenses with a time delay; ``Dual
+		licensing'', where the software is maintained under a proprietary license
+		and a strong copy-left license, so customers who cannot or chose not to
+		comply with the terms of the copy-left license must buy the software; and
+		``Software as a service'', where the application software is OSS, but the
+		server it communicates with is closed source. \parencite{1}.
+
+		\textcite{6} examines the effects of both free and
+		commercial OSS on proprietary software. The author used a statistical model
+		to compare two different hypothetical markets: one where proprietary
+		software only competes with free OSS and another where proprietary software
+		competes against both free and commercial OSS. The model considered
+		differences in usability between OSS and proprietary software, as well
+		differences in functionality and user technical ability. The authors
+		findings were that the introduction of commercial OSS to the market can
+		decrease the price of proprietary software and increase social welfare
+		without necessarily decreasing the market share of the proprietary software.
+		A market in which proprietary software only competes against free OSS,
+		however, may lead to higher prices and lower social welfare \parencite{6}.
+
+		\section{Methods}
+		\section{Results}
+		\section{Discussion}
+		\textcite{7} compare a market where two proprietary firms compete to one in
+		which a proprietary firm competes with a free OSS firm. 
+
+		\printbibliography{}
+
+\end{document}
