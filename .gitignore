@@ -1,5 +1,6 @@
 *.*
 !*.latex
 !*.bib
+!*.pdf
 !LICENSE.txt
 !.gitignore

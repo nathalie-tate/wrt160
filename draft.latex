@@ -105,8 +105,30 @@
 		\section{Methods}
 		\section{Results}
 		\section{Discussion}
-		\textcite{7} compare a market where two proprietary firms compete to one in
-		which a proprietary firm competes with a free OSS firm. 
+		\textcite{7} and \textcite{12} both compare a market where two proprietary
+		firms compete to one in which a proprietary firm competes with a
+		not-for-profit OSS firm. An important difference is that while \textcite{7}
+		considers an ``effort cost'' to producing OSS \parencite[334]{7},
+		\textcite{12} instead consider a ``learning cost'' to using it
+		\parencite[271]{12}. An effort cost is the cost for the developers to
+		produce the software. The reasoning here is that as the OSS is free, the
+		developers are not paid and therefore incur a net loss in producing the
+		software. While this is certainly true in some cases, it fails to account
+		for paid OSS developers or OSS developers who genuinely enjoy their work.
+		<possibly bring up primary research here> The learning cost on the other
+		hand is the cost for the user of the OSS to learn how to use it. This is
+		also certainly true in many, but not all cases. \textcite{12}, however,
+		accounts for this in their model by acknowledging that any two users may
+		have drastically different learning costs. \textcite{12} also considers R\&D
+		spillover from OSS communities into proprietary firms, which is an advantage
+		of their model over \textcite{7}'s.
+
+		That both \textcite{7} and \textcite{12} both only consider free OSS is
+		significantly disadvantageous for both models. \textcite{6} on the other
+		hand, considers the effects of both free and for-profit OSS on proprietary
+		software. Like \textcite{12}, \textcite{6} also considers a learning cost
+		for the users of the OSS, but the model neither considers an effort cost nor
+		R\&D spillover. <discuss findings of \textcite{6,7,12}>
 
 		\printbibliography{}
 
