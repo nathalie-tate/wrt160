@@ -49,19 +49,19 @@
 		for users who valued quality in their software, but that it may have high
 		value for users who did not value quality \parencite{7}.
 		
-		\textcite{10} discusses the visibility of software used
-		and mentioned in biology literature. The authors compiled a ``balanced and
-		representative sample'' of biology literature and analyzed the content by
-		looking for mentions of	software. Once found, the mentions were ``coded''
-		according to a coding scheme defined by the authors. The coding scheme
-		contained information about	the mentioned software: if the mention was
-		cited, if the mentioned software was easily identifiable and findable, if
-		the source code was	available, and if the author of the software granted
-		permission for others to edit it. The authors found that they had access to
-		79\% of the mentioned	software, 47\% was available for free, 32\% allowed
-		access to the source code, and 20\% allowed users to modify the code. The
-		authors concluded that the manner in which software was mentioned and cited
-		in scientific literature are ``varied and appear relatively ad hoc.'' The
+		\textcite{10} discuss the visibility of software used and mentioned in
+		biology literature. The authors compiled a ``balanced and representative
+		sample'' of biology literature and analyzed the content by looking for
+		mentions of	software. Once found, the mentions were ``coded'' according to a
+		coding scheme defined by the authors. The coding scheme contained
+		information about	the mentioned software: if the mention was cited, if the
+		mentioned software was easily identifiable and findable, if the source code
+		was	available, and if the author of the software granted permission for
+		others to edit it. The authors found that they had access to 79\% of the
+		mentioned	software, 47\% was available for free, 32\% allowed access to the
+		source code, and 20\% allowed users to modify the code. The authors
+		concluded that the manner in which software was mentioned and cited in
+		scientific literature are ``varied and appear relatively ad hoc.'' The
 		authors end with a call for more research \parencite{10}.
 
 		\textcite{12} utilizes a statistical model to examine
@@ -76,18 +76,18 @@
 		firms can benefit from ``R\&D spillover'' from permissively licensed OSS
 		projects \parencite{12}.
 
-		\textcite{1} discusses the ``business of open source
-		software''.  The authors discuss possible business models that allow an
-		individual or corporation to profit from OSS. These business models include:
-		``Support contracts and services", where one only supplies support for the
-		software; ``Open core'', where the core software is OSS but the peripheral
-		software and extensions are closed source; ``Business source'', where the
-		software is maintained under two licenses with a time delay; ``Dual
-		licensing'', where the software is maintained under a proprietary license
-		and a strong copy-left license, so customers who cannot or chose not to
-		comply with the terms of the copy-left license must buy the software; and
-		``Software as a service'', where the application software is OSS, but the
-		server it communicates with is closed source. \parencite{1}.
+		\textcite{1} discuss the ``business of open source software''.  The authors
+		discuss possible business models that allow an individual or corporation to
+		profit from OSS. These business models include: ``Support contracts and
+		services", where one only supplies support for the software; ``Open core'',
+		where the core software is OSS but the peripheral software and extensions
+		are closed source; ``Business source'', where the software is maintained
+		under two licenses with a time delay; ``Dual licensing'', where the software
+		is maintained under a proprietary license and a strong copy-left license, so
+		customers who cannot or chose not to comply with the terms of the copy-left
+		license must buy the software; and ``Software as a service'', where the
+		application software is OSS, but the server it communicates with is closed
+		source \parencite{1}.
 
 		\textcite{6} examines the effects of both free and
 		commercial OSS on proprietary software. The author used a statistical model
@@ -103,32 +103,96 @@
 		however, may lead to higher prices and lower social welfare \parencite{6}.
 
 		\section{Methods}
+		Two surveys were created using SurveyMonkey.com: one was posted on the popular
+		programming subreddit /r/coding on reddit.com; the other was distributed via
+		Slack to the employees of Xby2, a software development company in Farmington
+		Hills, MI. Slack is an instant-messaging platform frequently used by software
+		developers. The surveys contain the same questions, but have been kept
+		separate to allow for comparing the data between the two sets of respondents. 
+
+		Xby2 employs between 51 and 200 people \parencite{glassdoor}, and the survey
+		is expected to reach approximately 40 people. The gender makeup of Reddit is
+		53\% male and 47\% female. Additionally, 54\% of users are American and 46\%
+		are international. \parencite{zendesk}. /r/coding was chosen over the more
+		popular /r/programming specifically because it is less popular. As of
+		2016-10-17, /r/programming has 699,453 subscribers and /r/coding has 75,898. 
+		/r/coding has more strictly enforced rules and a smaller community, which
+		could lead to higher quality sample data.
+
+		The survey contains six questions. The first question ensures that the
+		respondent is in the target demographic and the remaining five questions ask
+		the respondent about the Open Source and Proprietary projects they work on,
+		the licenses they use (if Open Source), and the types of software they use.
+		The licenses and types of software used were chosen to be a representation of
+		some of the most commonly used, with an option for "Other" to account for
+		omissions.
 		\section{Results}
 		\section{Discussion}
 		\textcite{7} and \textcite{12} both compare a market where two proprietary
 		firms compete to one in which a proprietary firm competes with a
 		not-for-profit OSS firm. An important difference is that while \textcite{7}
-		considers an ``effort cost'' to producing OSS \parencite[334]{7},
-		\textcite{12} instead consider a ``learning cost'' to using it
+		consider an ``effort cost'' to producing OSS \parencite[334]{7},
+		\textcite{12} instead considers a ``learning cost'' to using it
 		\parencite[271]{12}. An effort cost is the cost for the developers to
 		produce the software. The reasoning here is that as the OSS is free, the
 		developers are not paid and therefore incur a net loss in producing the
 		software. While this is certainly true in some cases, it fails to account
 		for paid OSS developers or OSS developers who genuinely enjoy their work.
-		<possibly bring up primary research here> The learning cost on the other
-		hand is the cost for the user of the OSS to learn how to use it. This is
-		also certainly true in many, but not all cases. \textcite{12}, however,
-		accounts for this in their model by acknowledging that any two users may
-		have drastically different learning costs. \textcite{12} also considers R\&D
-		spillover from OSS communities into proprietary firms, which is an advantage
-		of their model over \textcite{7}'s.
+		My primary research supports the idea of an effort cost, with 58\% of Reddit
+		respondents reporting that they rarely or never contribute to OSS, while
+		55\% reported contributing to proprietary projects more than once a week.
+		The learning cost on the other hand is the cost for the user of the OSS to
+		learn how to use it. My primary research does not support the idea of a
+		learning cost being prohibitive. In fact, in the Reddit survey, OSS beat
+		proprietary software for number of users in every category except for Office
+		Suites. This discrepancy is likely due to the fact that everyone polled in
+		the Reddit survey was a either software developer or computer science
+		student, and these demographics are likely to have higher technical
+		knowledge and lower learning costs. A poll of the general public would
+		likely have the expected results.  \textcite{12}	accounts for these
+		potential discrepancies in their model by acknowledging that any two users
+		may have drastically different learning costs.  \textcite{12} also considers
+		R\&D spillover from OSS communities into proprietary firms, which is an
+		advantage of their model.
 
 		That both \textcite{7} and \textcite{12} both only consider free OSS is
 		significantly disadvantageous for both models. \textcite{6} on the other
 		hand, considers the effects of both free and for-profit OSS on proprietary
 		software. Like \textcite{12}, \textcite{6} also considers a learning cost
 		for the users of the OSS, but the model neither considers an effort cost nor
-		R\&D spillover. <discuss findings of \textcite{6,7,12}>
+		R\&D spillover.
+
+		R\&D spillover, as detailed by \textcite{12}, relies on permissively
+		licensed OSS. Permissive software licenses like the MIT, Apache, BSD, and
+		WTFPL licenses allow OSS to be used in proprietary projects. This is in
+		contrast to copyleft licenses like the GNU GPL, which state that all
+		derivative works must be licensed under a similar license. 58\% of surveyed
+		Reddit users reported using one or more of the mentioned permissive licenses
+		at least once, compared to 44\% who reported using the GPL. This trend
+		towards permissive licencing could positively impact the amount of R\&D
+		spillover that occurs, thereby increasing the amount of new software being
+		developed by companies and having a positive effect on innovation. 
+
+		Another factor that affects R\&D spillover other than the licensing of the
+		OSS is the existence of the OSS itself. \textcite{10} explain how different
+		factors affecting the visibility of code in scientific literature, including
+		the availability of the source code, affect scientific research. From
+		\textcite{10}'s findings that the availability of source code is beneficial
+		to scientific research and \textcite{12}'s findings that permissively
+		licensed OSS is beneficial to proprietary software, a logical conclusion
+		would be that the existence of more OSS would be beneficial to proprietary
+		software companies via the process of R\&D spillover.
+
+		While important for individuals and not-for-profit OSS communities, choice
+		of software licenses is much more important for for-profit OSS companies. As
+		explained in \textcite{1}, many of the more effective ways to monetize OSS
+		require the owner to be very deliberate in their choice of license. For
+		example, ``dual licensing'' depends on the open source version of the code
+		being released under the GPL or a similar copyleft license. The success of
+		commercial OSS is important beyond the success or failure of any single
+		company: as \textcite{6} found, commercial OSS is often of higher quality
+		than free OSS, and its introduction to the market lowers prices and
+		increases social welfare.
 
 		\printbibliography{}
 
