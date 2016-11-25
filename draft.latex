@@ -9,7 +9,13 @@
 \shorttitle{Open source software and innovation}
 \author{Nathalie Rosalind Tate}
 \affiliation{Oakland University}
-\abstract{abstract text}
+\abstract{This paper examines the ways in which open source software (OSS) is
+		better for innovation in the software development industry than proprietary
+		software. An examination of prior research and two surveys of software
+		developers and computer science students clearly indicate that the
+		production and availability of OSS benefits the software developer.}
+\keywords{open source, proprietary, software, innovation}
+
 
 \begin{document}
 \maketitle{}
