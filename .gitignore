@@ -3,3 +3,5 @@
 !*.bib
 !LICENSE.txt
 !.gitignore
+!img
+!img/*
