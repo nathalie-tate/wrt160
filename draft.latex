@@ -2,6 +2,8 @@
 \usepackage[american]{babel}
 \usepackage[style=apa]{biblatex}
 \usepackage{csquotes}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png}
 \DeclareLanguageMapping{american}{american-apa}
 \bibliography{cites}
 \title{Open Source Software and Innovation in the Software Development 
@@ -133,7 +135,49 @@
 		some of the most commonly used, with an option for "Other" to account for
 		omissions.
 		\section{Results}
+		The Reddit survey received 132 valid responses for a response rate of
+		approximately 0.02\%. The Xby2 survey received 7 valid responses for a
+		response rate of approximately 14\%. The Reddit survey showed that 17.2\% of
+		respondents contribute to OSS once a week or more, while 58\% contribute
+		rarely or never. The most popular OSS licenses were MIT/X11 and the GPL,
+		tied with 58 users reporting having used them, followed by BSD with 38,
+		Apache with 30, and WTFPL with 6. 56\% of respondents reported contributing
+		to proprietary projects once a week or more, while 38\% reported
+		contributing rarely or never. When asked about the software they regularly
+		use, more respondents chose OSS over proprietary software for every category
+		except for Office Suites.
+
+		The Xby2 survey showed that 0\% of respondents contribute to OSS once a week
+		or more, while 86\% contribute rarely or never. The most popular OSS license
+		was Apache, with 2 users respondents reporting having used it followed by
+		MIT/X11, GPL, BSD, and WTFPL with 1 each. 57\% of respondents reported
+		contributing to proprietary projects once a week or more, while 43\%
+		reported contributing rarely or never.  When asked about the software they
+		regularly use, more respondents chose OSS over proprietary software for Web
+		Browsers, and more chose proprietary software over OSS for Operating
+		Systems, Office Suites, and Text Editors. An equal number of respondents
+		chose OSS and proprietary for Image Editors.
+
+		For graphical representations of these results, see appendices A-J.
+
 		\section{Discussion}
+		Some of the differences between the Xby2 data and the Reddit data could be
+		accounted for by a number of factors. First, the Xby2 survey had a much
+		smaller sample size than the Reddit survey. With only 7 responses, the Xby2
+		data is strongly skewed by any outliers and is not a representative sample.
+		The larger sample size of the Reddit survey increases its resistance to
+		outliers and brings it closer to being a representative sample. Second,
+		Reddit likely has a more diverse socio-economic demographic than Xby2. All 7
+		of the respondents to the Xby2 survey are known to be employed. The
+		respondents to the Reddit survey were using Reddit, a free website with few
+		barriers to entry and have an unknown employment status. Therefore, it can
+		be assumed that the average Reddit respondent is more likely to be
+		unemployed or financially disadvantaged than an Xby2 employee and therefor
+		is less likely to be in a position to be able to afford proprietary software
+		when there is a workable OSS alternative. A third possibility is that Xby2
+		mandates the use of certain proprietary softwares that the average Reddit
+		respondent might not otherwise use.
+
 		\textcite{7} and \textcite{12} both compare a market where two proprietary
 		firms compete to one in which a proprietary firm competes with a
 		not-for-profit OSS firm. An important difference is that while \textcite{7}
@@ -200,6 +244,33 @@
 		than free OSS, and its introduction to the market lowers prices and
 		increases social welfare.
 
-		\printbibliography{}
+		\printbibliography[]{}
+
+		\appendix{}
+			\section{}
+			\includegraphics{img/ossFreqREDDIT.png}
+			\section{}
+			\includegraphics{img/propFreqREDDIT.png}
+			\section{}
+			\includegraphics{img/licensesREDDIT.png}
+			\section{}
+			\includegraphics{img/ossSoftwareREDDIT.png}
+			\section{}
+			\includegraphics{img/propSoftwareREDDIT.png}
+			\section{}
+			\includegraphics{img/ossContribXBY2.png}
+			\section{}
+			\includegraphics{img/propContribXBY2.png}
+			\section{}
+			\includegraphics{img/licensesXBY2.png}
+			\section{}
+			\includegraphics{img/ossXBY2.png}
+			\section{}
+			\includegraphics{img/propSoftXBY2.png}
+			\section{Copyright Notice and Licensing}
+			This document is Copyright \copyright{} 2016 Nathalie Tate, and may be
+			freely modified or distributed under the Creative Commons Attribution 4.0
+			International License.
+			\\https://creativecommons.org/licenses/by/4.0/
 
 \end{document}
