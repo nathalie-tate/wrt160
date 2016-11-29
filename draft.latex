@@ -15,7 +15,8 @@
 		better for innovation in the software development industry than proprietary
 		software. An examination of prior research and two surveys of software
 		developers and computer science students clearly indicate that the
-		production and availability of OSS benefits the software developer.}
+		production and availability of OSS benefits the software developer. See
+		Appendix K for copyright and license information.}
 \keywords{open source, proprietary, software, innovation}
 
 
@@ -132,8 +133,9 @@
 		the respondent about the Open Source and Proprietary projects they work on,
 		the licenses they use (if Open Source), and the types of software they use.
 		The licenses and types of software used were chosen to be a representation of
-		some of the most commonly used, with an option for "Other" to account for
+		some of the most commonly used, with an option for ``Other'' to account for
 		omissions.
+
 		\section{Results}
 		The Reddit survey received 132 valid responses for a response rate of
 		approximately 0.02\%. The Xby2 survey received 7 valid responses for a
@@ -158,7 +160,7 @@
 		Systems, Office Suites, and Text Editors. An equal number of respondents
 		chose OSS and proprietary for Image Editors.
 
-		For graphical representations of these results, see appendices A-J.
+		For graphical representations of these results, see Appendices A-J.
 
 		\section{Discussion}
 		Some of the differences between the Xby2 data and the Reddit data could be
