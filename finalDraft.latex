@@ -15,52 +15,34 @@
 		better for innovation in the software development industry than proprietary
 		software. An examination of prior research and two surveys of software
 		developers and computer science students clearly indicate that the
-		production and availability of OSS benefits the software developer. See
-		Appendix K for copyright and license information.}
+		production and availability of OSS benefits the software developer and the
+		software development industry. See Appendix K for copyright and license
+		information.}
 \keywords{open source, proprietary, software, innovation}
 
 \begin{document}
 \maketitle{}
 		The addition of open source software into a market is better for innovation
-		in the software industry than proprietary software alone. By using and
-		creating open source software (OSS) instead of or in addition to proprietary
-		software, software developers can improve the quality and quantity of
-		software available both to themselves and to consumers at large. 
+		in the software development industry than proprietary software alone. By
+		using and creating open source software (OSS) instead of or in addition to
+		proprietary software, software developers can improve the quality and
+		quantity of software available both to themselves and to consumers at large.
 
 		The main divide between proprietary software and OSS, other than the
-		availability of the source code, is the price: Proprietary software
+		availability of the source code, is the price. Proprietary software
 		frequently must be purchased, while OSS is usually provided for free. This
 		price difference makes it easier to monetize proprietary software and is a
 		large factor in both the popularity of proprietary software among developers
-		and the differing effects of OSS and proprietary software on innovation.
+		and in the differing effects of OSS and proprietary software on innovation.
 		
 		\section{Literature Review}
-		
-		\textcite{7} compare how price competition and differences in software
-		quality vary between two markets: one in which two proprietary software
-		firms are competing and one in which a proprietary software firm competes
-		against an open source software (OSS) firm. The authors utilized a
-		statistical model	to compare the two types of markets.  The models compare
-		software quality and price competition. Although OSS is often free, the
-		authors factored in an ``effort cost'' when determining the price
-		competition. The findings of the model were that a proprietary firm
-		competing against an OSS firm may have either higher or lower profits than a
-		proprietary firm competing against another proprietary firm, depending on
-		the price competition from the OSS firm. The price competition depends on
-		the effort cost of the OSS, the degree to which consumers value quality, and
-		the degree to which the consumers of the OSS contribute to the production of
-		the OSS. The proprietary firm had the highest profits when the price
-		competition from the OSS firm was low, but the consumers were better-off
-		with lower price competition. The authors also found that OSS had low value
-		for users who valued quality in their software, but that it may have high
-		value for users who did not value quality \parencite{7}.
 		
 		\textcite{10} discuss the visibility of software used and mentioned in
 		biology literature. The authors compiled a ``balanced and representative
 		sample'' \parencite[2139]{10} of biology literature and analyzed the content
 		by looking for mentions of software. Once found, the mentions were
 		coded according to a coding scheme defined by the authors. The coding
-		scheme contained information about	the mentioned software: If the mention
+		scheme contained information about the mentioned software: If the mention
 		was cited, if the mentioned software was easily identifiable and findable,
 		if the source code was	available, and if the author of the software granted
 		permission for others to edit it. The authors found that they had access to
@@ -72,6 +54,39 @@
 		more effective methods to properly cite software in scholarly
 		articles.
 
+		\textcite{1} discuss different business models that allow an individual or
+		corporation to effectively profit from OSS. These business models include:
+		``Support contracts and services", where one only supplies support for the
+		software; ``Open core'', where the core software is OSS but the peripheral
+		software and extensions are closed source; ``Business source'', where the
+		software is maintained under two licenses with a time delay between the
+		proprietary release and the open source release; ``Dual licensing'', where
+		the software is maintained under both a proprietary license and a copyleft
+		license, so customers who cannot or chose not to comply with the terms of
+		the copyleft license must buy the software; and ``Software as a service'',
+		where the application software is open source, but the server it
+		communicates with is closed source \parencite{1}.
+
+		\textcite{7} compare how price competition and differences in software
+		quality vary between two markets: One in which two proprietary software
+		firms are competing and one in which a proprietary software firm competes
+		against an open source software (OSS) firm. The authors utilized a
+		statistical model	to compare the two types of markets.  The models compare
+		software quality and price competition. Although OSS is often free, the
+		authors factored in an ``effort cost'' when determining the price
+		competition \parencite[334]{7}. The findings of the model were that a
+		proprietary firm competing against an OSS firm may have either higher or
+		lower profits than a proprietary firm competing against another proprietary
+		firm, depending on the price competition from the OSS firm. The price
+		competition depends on the effort cost of the OSS, the degree to which
+		consumers value quality, and the degree to which the consumers of the OSS
+		contribute to the production of the OSS. The proprietary firm had the
+		highest profits when the price competition from the OSS firm was low, but
+		the consumers were better-off with higher price competition. The authors
+		also found that OSS had lower value for users who valued quality in their
+		software, but that it may have higher value for users who did not value
+		quality \parencite{7}.
+
 		\textcite{12} utilizes a statistical model to examine
 		competition between a firm that produces proprietary software and a
 		community that produces free OSS. The author's findings are that the
@@ -80,23 +95,11 @@
 		presence of competition from the community, the firm targets ``even less
 		technologically savvy individuals'' \parencite[268]{12} than it would if it
 		were facing no competition. Furthermore, the author notes that the
-		``real price'' of software has two factors: The purchase price and the
-		opportunity cost of learning how to use it. Additionally, the author
-		comments on how proprietary firms can benefit from ``R\&D spillover'' from
-		permissively licensed OSS projects \parencite{12}.
-
-		\textcite{1} discuss different business models that allow an individual or
-		corporation to effectively profit from OSS. These business models include:
-		``Support contracts and services", where one only supplies support for the
-		software; ``Open core'', where the core software is OSS but the peripheral
-		software and extensions are closed source; ``Business source'', where the
-		software is maintained under two licenses with a time delay between the
-		proprietary release and the open source release; ``Dual licensing'', where
-		the software is maintained under both a proprietary license and a copy-left
-		license, so customers who cannot or chose not to comply with the terms of
-		the copy-left license must buy the software; and ``Software as a service'',
-		where the application software is open source, but the server it
-		communicates with is closed source \parencite{1}.
+		``real price'' of software has two factors: The purchase price and a
+		learning cost. The learning cost is the opportunity cost for the user to
+		learning how to use the OSS. Additionally, the author comments on how
+		proprietary firms can benefit from ``R\&D spillover'' from permissively
+		licensed OSS projects \parencite{12}.
 
 		\textcite{6} examines the effects of both free and
 		commercial OSS on proprietary software. The author used a statistical model
@@ -112,31 +115,31 @@
 		however, may lead to higher prices and lower social welfare \parencite{6}.
 
 		\section{Methods}
-		Two surveys were created using SurveyMonkey.com: One was posted on the
+		Two surveys were created using SurveyMonkey.com: One was posted to the
 		popular programming forum /r/coding on reddit.com; The other was
 		distributed via Slack to the employees of Xby2, a software development
 		company in Farmington Hills, MI. Slack is an instant-messaging platform
-		frequently used by software developers. The surveys contain the same
-		questions, but have been kept separate to allow for comparing the data
-		between the two sets of respondents. 
+		created for and frequently used by software developers. The surveys contain
+		the same questions, but have been kept separate to allow for comparing the
+		data between the two sets of respondents. 
 
 		Xby2 employs between 51 and 200 people \parencite{glassdoor}, and the survey
-		is expected to reach approximately 40 people. The gender makeup of Reddit is
+		was sent to approximately 40 people. The gender makeup of Reddit is
 		53\% male and 47\% female. Additionally, 54\% of Reddit users are American
 		and 46\% are international \parencite{zendesk}. /r/coding was chosen over
 		the more popular /r/programming specifically because it is less popular. As
-		of October 17, 2016, /r/programming has 699,453 subscribers and /r/coding
-		has 75,898. The smaller community and more strictly enforced rules in
+		of October 17, 2016, /r/programming had 699,453 subscribers and /r/coding
+		had 75,898. The smaller community and more strictly enforced rules in
 		/r/coding could lead to higher quality sample data.
 
-		The survey contains six questions. The first question asks if the respondent
-		is either a software developer or computer science student to ensure all
-		respondents are in in the target demographic. The remaining five questions
-		ask the respondent about how frequently they contribute to Open Source and
-		Proprietary projects, the licenses they use (if Open Source), and the types
-		of software they use. The licenses and types of software used were chosen to
-		be a representation of some of the most commonly used, with an option for
-		``Other'' to account for omissions.
+		The survey contained six questions. The first question asked if the
+		respondent is either a software developer or computer science student to
+		ensure all respondents are in in the target demographic. The remaining five
+		questions asked the respondent about how frequently they contribute to Open
+		Source and Proprietary projects, the licenses they use (if Open Source), and
+		the types of software they use. The licenses and types of software used were
+		chosen to be a representation of some of the most commonly used, with an
+		option for ``Other'' to account for omissions.
 
 		\section{Results}
 		The Reddit survey received 132 valid responses for a response rate of
@@ -169,22 +172,22 @@
 		Some of the differences between the Xby2 data and the Reddit data could be
 		accounted for by a number of factors. First, the Xby2 survey had a much
 		smaller sample size than the Reddit survey. With only 7 responses, the Xby2
-		data is strongly skewed by any outliers and is not a representative sample.
-		The larger sample size of the Reddit survey increases its resistance to
-		outliers and brings it closer to being a representative sample of software
-		developers. Second, Reddit likely has a more diverse socio-economic
-		demographic than Xby2. All 7 of the respondents to the Xby2 survey are known
-		to be employed. The respondents to the Reddit survey were using Reddit, a
-		free website with few barriers to entry and have an unknown employment
-		status. Therefore, it can be assumed that the average Reddit respondent is
-		more likely to be unemployed or financially disadvantaged than an Xby2
-		employee and therefor is less likely to be in a position to be able to
-		afford proprietary software when there is a workable OSS alternative. A
-		third possibility is that Xby2 mandates the use of certain proprietary
-		softwares that the average Reddit respondent might not otherwise use.
-		These reasons are all indications that the Reddit data is the more accurate
-		of the two sets for making predictions about the larger population of
-		software developers.
+		data is strongly skewed by any outliers and is not a representative sample
+		of the population of all software developers.  The larger sample size of the
+		Reddit survey increases its resistance to outliers and brings it closer to
+		being a representative sample of software developers. Second, Reddit likely
+		has a more diverse socio-economic demographic than Xby2. All 7 of the
+		respondents to the Xby2 survey are known to be employed. The respondents to
+		the Reddit survey were using Reddit, a free website with few barriers to
+		entry and have an unknown employment status. Therefore, it can be assumed
+		that the average Reddit respondent is more likely to be unemployed or
+		financially disadvantaged than an Xby2 employee and therefor is less likely
+		to be in a position to be able to afford proprietary software when there is
+		a workable OSS alternative. A third possibility is that Xby2 mandates the
+		use of certain proprietary softwares that the average Reddit respondent
+		might not otherwise use.  These reasons are all indications that the Reddit
+		data is the more accurate of the two sets for making predictions about the
+		larger population of software developers.
 
 		\textcite{7} and \textcite{12} both compare a market where two proprietary
 		firms compete with each other to one in which a proprietary firm competes
@@ -194,7 +197,7 @@
 		using it \parencite[271]{12}. An effort cost is the cost for the developers
 		to produce the software. Whereas a proprietary software developer would be
 		paid for their work, and therefor incur a net gain through their labor, the
-		OSS is free, and the developers are not paid, and therefore incur a net loss
+		OSS is free and the developers are not paid, and therefore incur a net loss
 		in producing the software. While this is certainly true in some cases, it
 		fails to account for paid OSS developers or OSS developers who genuinely
 		enjoy their work. Additionally, some OSS developers may be developing the
@@ -211,22 +214,32 @@
 		learn how to use it. My primary research does not support the idea of a
 		learning cost being prohibitive. In fact, in the Reddit survey, OSS beat
 		proprietary software for number of users in every category except for Office
-		Suites. These results might be accurate for the targeted demographic of the
-		survey, namely software developers and computer science students, but they
-		are unlikely to translate to the larger demographic of consumers due to the
-		fact that members of the target demographic are likely to have higher
-		technical knowledge and lower learning costs than members of the general
-		public. \textcite{12} accounts for this sort of error in their model by
-		acknowledging that any two users may have drastically different learning
-		costs. \textcite{12} also considers R\&D spillover from OSS communities into
-		proprietary firms, which is an advantage of their model.
+		Suites. The prevalence of proprietary Office Suites is likely due to the
+		widespread use of Google Docs, a proprietary word processor that allows
+		multiple users to simultaneously edit the same document. Unlike Microsoft
+		Word and its free OSS alternatives (Open Office, Libre Office, etc.), there
+		are no popular OSS alternatives to Google Docs that offer the same features.
+		These results indicate that OSS is on average much more popular than
+		proprietary software, but they are likely only true for the targeted
+		demographic of the survey, namely software developers and computer science
+		students. The results are unlikely to translate to the larger demographic of
+		all consumers due to the fact that members of the target demographic are
+		likely to have higher technical knowledge and lower learning costs than
+		members of the general public. \textcite{12} accounts for this sort of error
+		in their model by acknowledging that any two users may have drastically
+		different learning costs. \textcite{12} also considers R\&D spillover from
+		OSS communities into proprietary firms, which is an advantage of their study
+		compared to \textcite{7}.
 
 		That both \textcite{7} and \textcite{12} both only consider free OSS is
-		significantly disadvantageous for both models. \textcite{6} on the other
-		hand, considers the effects of both free and for-profit OSS on proprietary
-		software. Like \textcite{12}, \textcite{6} also considers a learning cost
-		for the users of the OSS, but the model neither considers an effort cost nor
-		R\&D spillover.
+		significantly disadvantageous for both models. For-profit OSS would have a
+		lower effort cost than if it were free, but would have a purchase cost,
+		similar to (but lower than) proprietary software. \textcite{7} and
+		\textcite{12} might have shown different results if their models had also
+		considered for-profit OSS. \textcite{6} on the other hand, considers the
+		effects of both free and for-profit OSS on proprietary software. Like
+		\textcite{12}, \textcite{6} also considers a learning cost for the users of
+		the OSS, but the model neither considers an effort cost nor R\&D spillover.
 
 		R\&D spillover, as detailed by \textcite{12}, relies on permissively
 		licensed OSS. Permissive software licenses like the MIT, Apache, BSD, and
@@ -247,20 +260,42 @@
 		the availability of the source code, affect scientific research. 
 		If the findings from \textcite{10} can be generalized to more than just
 		biology literature, one could assume that software, and more specifically
-		OSS, suffers from a lack of visibility. If this software was made more
-		visible to other developers, it could have a significant impact on the
-		amount of software created.
+		OSS, suffers from a lack of visibility in other areas as well. If this
+		software was made more visible to other developers, it could have a
+		significant impact on the amount of R\&D spillover that occurs and therefor
+		the quantity of software created.
 
 		While important for individuals and not-for-profit OSS communities, choice
-		of software licenses for a project is much more important for for-profit OSS
+		of software licenses for a project is much more important to for-profit OSS
 		companies. As explained in \textcite{1}, many of the more effective ways to
 		monetize OSS require the owner to be very deliberate in their choice of
 		license. For example, ``dual licensing'' depends on the open source version
-		of the code being released under the GPL or a similar copyleft license. The
-		success of commercial OSS is important beyond the success or failure of any
-		single company: As \textcite{6} found, commercial OSS is often of higher
-		quality than free OSS, and its introduction to the market lowers prices and
-		increases social welfare.
+		of the code being released under the GPL or a similar copyleft license. By
+		using a copyleft license for the free version instead of a permissive
+		license, the company forces others who would like to incorporate the code
+		into a proprietary project to purchase the proprietary version of the
+		software. The success of commercial OSS is important beyond the success or
+		failure of any single company: As \textcite{6} found, commercial OSS is
+		often of higher quality than free OSS, and its introduction to the market
+		lowers prices and increases social welfare.
+
+		My primary research also suggests another effect of OSS. The Reddit survey
+		shows that on average, software developers prefer to use OSS over
+		proprietary software. While the definite cause of this preference remains
+		unclear, one could assume that it is at least in part due to the developers
+		experiencing higher productivity while using the OSS than while using the
+		proprietary software. With that assumption, it can be concluded that by
+		creating more OSS (and therefor increasing the quantity of OSS available to
+				themselves), software developers may be able to positively influence
+		their productivity, which would lead to an increase in innovation through
+		the additional software being produced.
+
+		While \textcite{6} and \textcite{7} both found that the introduction of free
+		OSS alone may actually harm social welfare, it is evident that the
+		introduction of both free and for-profit OSS to a market has positive
+		effects on innovation for consumers and for software developers. Because
+		of this, software developers should consider creating open source software
+		instead of or in addition to their proprietary software.
 
 		\printbibliography[]{}
 
@@ -287,8 +322,8 @@
 			\includegraphics{img/propSoftXBY2.png}
 			\section{Copyright Notice and Licensing}
 			This document is Copyright \copyright{} 2016 Nathalie Tate, and may be
-			freely modified or distributed under the Creative Commons Attribution 4.0
-			International License.
+			freely modified or distributed under the terms of the Creative Commons
+			Attribution 4.0 International License.
 			\\https://creativecommons.org/licenses/by/4.0/
 
 \end{document}
