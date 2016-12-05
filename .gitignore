@@ -3,6 +3,7 @@
 !*.pdf
 !*.bib
 !LICENSE.txt
+!README.md
 !.gitignore
 !img
 !img/*
